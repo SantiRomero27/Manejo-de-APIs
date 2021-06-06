@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+/* EL HEADER */
+.page-header {
+    padding: 15px 0;
+
+    background-color: #fff159;
+}
+
+.header-content {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 12px;
+    margin-right: 14px;
+
+    font-family: "Roboto";
+    border: solid black 1px;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 13px 35px;
+
+    font-family: "Roboto";
+    font-weight: 700;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 4px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+/* PARTE PRINCIPAL: EL CONTENIDO */
+.page-content {
+    max-width: 510px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.results-text {
+    font-weight: 500;
+}
+
+.result-item {
+    display: flex;
+
+    padding: 15px;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.result-item-img {
+    align-self: center;
+
+    max-width: 128px;
+    max-height: 120px;
+}
+
+.result-item-content {
+    flex-grow: 1;
+
+    padding: 0 15px;
+}
+
+.result-item-title {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.result-item-condition {
+    margin: 0;
+    margin-bottom: 12%;
+}
+
+.result-item-sold {
+    margin: 0;
+}
+
+.result-item-price {
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #5791a4;
+}
